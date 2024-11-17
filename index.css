@@ -1,0 +1,80 @@
+body {
+    background: url(./images/bg-pattern-top.svg) left -60% bottom -90%  no-repeat,
+    url(./images/bg-pattern-bottom.svg) right -60% top -90% no-repeat;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-origin: content-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.card{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.bg-pattern-card{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.victor{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    border:5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.personal-details{
+    margin-top: 60px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+.name{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2px;
+
+}
+.name span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+.london{
+    color: hsl(0, 0%, 59%);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+.itm1, .itm2, .itm3{
+    color: hsl(229, 23%, 23%);
+    margin: 2px 0;
+    padding: 0;
+    line-height: 1.2px;
+}
+.numbers{
+    font-weight: 600;
+    font-size: 18px;
+}
+.stats{
+    font-size: 12px;
+    opacity: 80%;
+}
